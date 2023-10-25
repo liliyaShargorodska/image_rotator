@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Image rotator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="image-gallery">
+        <div class="main-image">
+          <button onclick="prev()"><<</button>
+          <img id="main-img" src="images/dog.jpeg" alt="Main image">
+          <button onclick="next()">>></button>
+        </div>
+        <div class="image-list">
+          <ul id="image-list">
+              <li class="gallery-image"><img src="images/dog.jpeg" alt="Dog image"></li>
+              <li class="gallery-image"><img src="images/tiger.jpeg" alt="Tiger image"></li>
+              <li class="gallery-image"><img src="images/panda.jpeg" alt="Panda image"></li>
+              <li class="gallery-image"><img src="images/cat.jpeg" alt="Cat image"></li>
+          </ul>
+        </div>
+    </div>
+    <button onclick="change()">Go</button>
+    <button onclick="stop()">Stop</button>
+
+  <script src="script.js">
+
+  </script>
+  </body>
+</html>
